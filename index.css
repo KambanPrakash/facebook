@@ -1,0 +1,399 @@
+body,
+h1,
+h2,
+p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.overlay{
+    background-color: #000000;
+    opacity: 70%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.box {
+    background-color: #f0f2f5;
+    padding: 20px;
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center; /* Center text within the box */
+   
+}
+
+.box button {
+    background-color: #0866ff;
+    color: #f0f2f5;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+    margin-top: 10px;
+    
+}
+
+
+.main-dev {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#logo {
+    font-size: 53px;
+    color: #0866ff;
+    padding: 20px 0px;
+}
+
+.signup-form {
+    background-color: white;
+    width: 430px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.form-heading {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccd0d5;
+
+}
+
+h2 {
+    padding-bottom: 5px;
+}
+
+.input-form {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input,
+select {
+    padding: 7px;
+    border: 1px solid #ccd0d5;
+    border-radius: 3px;
+    width: 100%;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#sub-heading {
+    padding: 0px;
+    font-size: 15px;
+}
+
+.firstline {
+    display: flex;
+    width: 50%;
+}
+
+.number {
+    display: flex;
+    width: 100%;
+}
+
+.password {
+    display: flex;
+    width: 100%;
+}
+
+label {
+    color: #606770;
+    font-size: 12px;
+    margin-top: 2px;
+
+}
+
+.dob-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.optionbox,
+.genderbox {
+    display: flex;
+    width: 100%;
+}
+
+.gender {
+    padding: 5px;
+    border: 1px solid #ccd0d5;
+    border-radius: 3px;
+    width: 100%;
+    margin: 5px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.radiobtn {
+    width: auto;
+}
+
+.text {
+    width: auto;
+}
+
+p {
+    color: #777;
+    font-size: 11px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #385898;
+}
+
+.sbutton,
+#end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.button {
+    border: 0;
+    background-color: #00a400;
+    color: #f0f2f5;
+    padding: 8px 55px 8px 55px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .signup-form {
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+
+    .button {
+        padding: 8px 20px;
+    }
+}
+/* Basic styling for the footer */
+footer {
+    background-color: #fff; 
+    color: #333; 
+    padding: 20px; 
+    text-align: center; 
+}body,
+h1,
+h2,
+p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.overlay{
+    background-color: #000000;
+    opacity: 70%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.box {
+    background-color: #f0f2f5;
+    padding: 20px;
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center; /* Center text within the box */
+   
+}
+
+.box button {
+    background-color: #0866ff;
+    color: #f0f2f5;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+    margin-top: 10px;
+    
+}
+
+
+.main-dev {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#logo {
+    font-size: 53px;
+    color: #0866ff;
+    padding: 20px 0px;
+}
+
+.signup-form {
+    background-color: white;
+    width: 430px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.form-heading {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccd0d5;
+
+}
+
+h2 {
+    padding-bottom: 5px;
+}
+
+.input-form {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input,
+select {
+    padding: 7px;
+    border: 1px solid #ccd0d5;
+    border-radius: 3px;
+    width: 100%;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#sub-heading {
+    padding: 0px;
+    font-size: 15px;
+}
+
+.firstline {
+    display: flex;
+    width: 50%;
+}
+
+.number {
+    display: flex;
+    width: 100%;
+}
+
+.password {
+    display: flex;
+    width: 100%;
+}
+
+label {
+    color: #606770;
+    font-size: 12px;
+    margin-top: 2px;
+
+}
+
+.dob-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.optionbox,
+.genderbox {
+    display: flex;
+    width: 100%;
+}
+
+.gender {
+    padding: 5px;
+    border: 1px solid #ccd0d5;
+    border-radius: 3px;
+    width: 100%;
+    margin: 5px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.radiobtn {
+    width: auto;
+}
+
+.text {
+    width: auto;
+}
+
+p {
+    color: #777;
+    font-size: 11px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #385898;
+}
+
+.sbutton,
+#end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.button {
+    border: 0;
+    background-color: #00a400;
+    color: #f0f2f5;
+    padding: 8px 55px 8px 55px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .signup-form {
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+
+    .button {
+        padding: 8px 20px;
+    }
+}
+/* Basic styling for the footer */
+footer {
+    background-color: #fff; 
+    color: #333; 
+    padding: 20px; 
+    text-align: center; 
+}

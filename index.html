@@ -1,0 +1,98 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook signup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <div class="box">
+        <p>THIS CLONE IS MATCHES ONLY IN LAPTOP VIEW</p>
+        <button onclick="btn()">To Continue</button>
+    </div>
+    <div class="main-dev">
+        <h1 id="logo">facebook</h1>
+        <form id="mainform">
+            <div class="signup-form">
+                <div class="form-heading">
+                    <h2>Create a new account</h2>
+                    <p id="sub-heading">It's quick and easy.</p>
+                </div>
+                <div class="input-form">
+                    <div class="firstline"><input type="text" placeholder="First name" name="fname" /></div>
+                    <div class="firstline"><input type="text" placeholder="Surname" name="sname" /></div>
+                    <div class="number">
+                        <input type="number" placeholder="Mobilenumber " name="mblnum" />
+                    </div>
+                    <div class="password">
+                        <input type="password" placeholder="Password" name="pass" />
+                    </div>
+                    <label>Date of birth</label>
+                    <div class="dob-div">
+                        <div class="optionbox"><select name="day">
+                                <option value="">choose</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select></div>
+                        <div class="optionbox"><select name="month">
+                                <option value="">choose</option>
+                                <option>jan</option>
+                                <option>feb</option>
+                            </select></div>
+                        <div class="optionbox"><select name="year">
+                                <option value="">choose</option>
+                                <option>2000</option>
+                                <option>2001</option>
+                            </select></div>
+                    </div>
+
+                    <label>Gender</label>
+                    <div class="genderbox">
+                        <div class="gender">
+                            <label class="text">Female</label>
+                            <input type="radio" class="radiobtn" name="gen" />
+                        </div>
+                        <div class="gender">
+                            <label class="text">Male</label>
+                            <input type="radio" class="radiobtn" name="gen" />
+                        </div>
+                        <div class="gender">
+                            <label class="text">Other</label>
+                            <input type="radio" class="radiobtn" name="gen" />
+                        </div>
+                    </div>
+                    <p>People who use our service may have uploaded your contact information to Facebook. <a
+                            href="https://www.facebook.com/signup">Learn more</a>.</p>
+                    <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive
+                        SMS notifications from us and can opt out at any time.</p>
+                    <div class="sbutton">
+                        <button class="button">Signup</button>
+                    </div>
+                    <div id="end">
+                        <a href="https://www.facebook.com/signup">Already have an account?</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>Copyright reserved 2024 @kamban</p>
+        <p>
+            This clone is designed for Education purpose not for any of the cost.
+        </p>
+
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"></script>
+<script src="validation.js"></script>
+</html>
